@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="random-jenkins-test">
+<project name="random-jenkins-test" default="info">
 
    <target name="info" depends="show_version">
           <echo>Hello world</echo>
